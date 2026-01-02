@@ -23,5 +23,7 @@ function drawOmikuji() {
   const result = omikujiList[index];
 
   document.getElementById("resulttext").textContent = result.name;
-  document.getElementById("resultimage").src = result.image;
+  const img = document.getElementById("resultimage");
+  img.src = result.image;
+  img.style.display = "block";
 }

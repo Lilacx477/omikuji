@@ -70,6 +70,8 @@ button:active {
 }
 
 #resultimage {
+  display: block;
+  margin: 0.8rem auto;
   margin-top: 0.5rem;
   max-width: 100%;
   border: 1px solid #c7bfae;

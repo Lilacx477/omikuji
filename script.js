@@ -8,10 +8,10 @@ function hashstring(str) {
 	}
 	
 const omikujilist = [
-	{name:"激震", image:"images/Gekishin.png"},
-	{name:"強震", image:"images/Kyoshin.png"},
-	{name:"弱震", image:"images/Jakushin.png"},
-	{name:"水中を寝正月の影がよぎった", image:"images/Tyokkan.png"}
+	{name:"激震", image:"Gekishin.png"},
+	{name:"強震", image:"Kyoshin.png"},
+	{name:"弱震", image:"Jakushin.png"},
+	{name:"水中を寝正月の影がよぎった", image:"Tyokkan.png"}
 ];
 
 function drawomikuji() {

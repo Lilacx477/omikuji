@@ -16,7 +16,7 @@ body {
 
 .container {
   max-width: 420px;
-  margin: 0 auto;
+  margin-top: 2.5rem;
   background: #fffaf2;
   border: 2px solid #d8cfc0;
   border-radius: 12px;
@@ -32,7 +32,8 @@ h1 {
 .input-area {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 input {
@@ -44,8 +45,8 @@ input {
 }
 
 button {
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
   background: #8b2c2c;
   color: #fff;
   border: none;
@@ -56,6 +57,8 @@ button:active {
 }
 
 .result {
+  display: block;
+  margin: 0.8rem auto;
   margin-top: 1rem;
   padding-top: 1rem;
   border-top: 1px dashed #c7bfae;

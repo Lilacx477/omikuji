@@ -1,0 +1,2 @@
+# omikuji
+just a mikuji
